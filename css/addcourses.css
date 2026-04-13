@@ -1,0 +1,85 @@
+.addcourses{
+    display: flex;
+    background-image: url(../image/image.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+nav ul{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul a{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom: 2px solid transparent;
+
+}
+a:hover{
+    border-bottom-color:rgb(255, 255, 255) ;
+}
+form{
+   padding: 10px;
+   width: 80%;
+  
+}
+form input{
+    border: none;
+    outline: none;
+    padding: 5x 10px;
+    width: 200px;
+    
+}
+form button{
+    background-color: rgb(11, 104, 162);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+   padding: 3px 20px;
+    
+}
+.form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+label{
+    width: 150px;
+    color: white;
+}
+footer{
+   margin-top: auto;
+    text-align: center;
+    color: white;
+}
+@media (max-width:768px)
+{
+    .addcourses{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
