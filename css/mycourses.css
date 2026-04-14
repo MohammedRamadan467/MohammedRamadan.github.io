@@ -56,12 +56,19 @@ footer{
     text-align: center;
     color: white;
 }
-@media (max-width:768px)
-{
-    .mycourses{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
 
 }

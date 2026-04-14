@@ -74,12 +74,13 @@ footer{
     text-align: center;
     color: white;
 }
-@media (max-width:768px)
-{
-    .addcourses{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
+
+  * {
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+    position: static !important;
+  }
 
 }
